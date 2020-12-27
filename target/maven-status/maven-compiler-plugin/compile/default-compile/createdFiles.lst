@@ -1,0 +1,10 @@
+edu/boot/protobuf/proto/PersonProto.class
+edu/boot/protobuf/proto/PersonProto$Person.class
+edu/boot/protobuf/config/ProtoBufConfig.class
+edu/boot/protobuf/controller/HelloController.class
+edu/boot/protobuf/ProtobufDemoApplication.class
+edu/boot/protobuf/proto/PersonProto$Person$1.class
+edu/boot/protobuf/proto/PersonProto$PersonOrBuilder.class
+edu/boot/protobuf/proto/PersonProto$Person$Builder.class
+edu/boot/protobuf/config/RestConnector.class
+edu/boot/protobuf/pojo/MessagePojo.class
