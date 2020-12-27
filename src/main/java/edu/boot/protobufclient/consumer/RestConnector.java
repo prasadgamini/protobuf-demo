@@ -20,9 +20,10 @@ public class RestConnector {
         this.converter = converter;
     }
 
-    public void call(){
-        MessagePojo messagePojo = restTemplate.getForObject("http://localhost:8080/hello", MessagePojo.class);
+    public MessagePojo call(){
+        var messagePojo = restTemplate.getForObject("http://localhost:8080/hello", MessagePojo.class);
         System.out.println(messagePojo);
+        return messagePojo;
     }
 
     public PersonProto.Person callProto(){
