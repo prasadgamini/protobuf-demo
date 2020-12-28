@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package tutorial;
+package edu.boot.protobuf;
 
 option java_package = "edu.boot.protobuf.proto";
 option java_outer_classname = "PersonProto";

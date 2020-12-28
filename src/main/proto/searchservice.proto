@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package edu.boot.protobuf;
+
+option java_package = "edu.boot.protobuf.proto";
+option java_outer_classname = "SearchProto";
+
+
+message SearchRequest {
+  required int32 id = 1;
+}
+
+message SearchResponse {
+  required string message = 1;
+}
+
+service SearchService {
+  rpc Search(SearchRequest) returns (SearchResponse);
+}
